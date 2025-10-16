@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Maincard from "./Maincard";
 import Card from "./Card";
+import Footer from "./Footer"
 
 //create your first component
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
 					<Card key={index} img={item.img} encabezado={item.encabezado} texto={item.texto} boton={item.boton} />
 				)}
 			</div>
+			<Footer />
 
 
 		</>

@@ -9,3 +9,6 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.card-footer {
+    padding: 2rem;
+}
